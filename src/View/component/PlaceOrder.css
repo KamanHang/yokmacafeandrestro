@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.order-container {
+    height: 87vh;
+    width: 75%;
+    border-radius: 15px; /* Adjust as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    background-color: #fff; /* Adjust background color as needed */
+    /* padding: 20px; Adjust padding as needed */
+    overflow: hidden; /* Ensures shadow and border-radius work properly */
+    margin-right: 2rem;
+}
+
+.order-container p {
+    color: white;
+}
+
+.total-container {
+    /* height: auto; */
+    width: 25%;
+    background-color: gray;
+    aspect-ratio: 12/1;
+    border-radius: 15px; /* Adjust as needed */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    background-color: #fff; /* Adjust background color as needed */
+    /* padding: 20px; Adjust padding as needed */
+    overflow: hidden; 
+}
+
+.total-container{
+    color: white;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: #591f0b;
+    height: 5vh;
+    padding: 0.5rem;
+}
